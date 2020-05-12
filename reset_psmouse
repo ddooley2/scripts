@@ -1,0 +1,9 @@
+#!/bin/bash
+
+gnome-terminal -e
+modules=(psmouse)
+
+for mod in "${modules[@]}"; do
+    sudo modprobe -r "$mod" 2> /dev/null
+    sudo modprobe -v "$mod" 2> /dev/null
+done

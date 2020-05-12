@@ -1,2 +1,2 @@
 #!/bin/bash
-gnome-terminal --maximize --working-directory=/home/ddooley -e ranger
+gnome-terminal --working-directory=/home/ddooley -e ranger
