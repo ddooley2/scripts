@@ -1,0 +1,12 @@
+#!/bin/bash
+echo Please enter name of pdf, without extension:
+
+read pdfname
+
+echo Please enter name of png, without extension:
+
+read pngname
+
+pdftoppm -rx 300 -ry 300 -png $pdfname.pdf $pngname
+
+
