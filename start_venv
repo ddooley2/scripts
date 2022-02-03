@@ -1,2 +1,2 @@
 #!/bin/sh
-echo 'source /Users/ddooley/env/bin/activate'
+echo 'source /Users/ddooley/venvs/env/bin/activate'
