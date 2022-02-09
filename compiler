@@ -48,7 +48,7 @@ case "$file" in
 		if [ "$MOD" -eq "1" ]; then
 			pandoc -t beamer "$file"  -o "$base".pdf
 		else
-			pandoc "$file" --pdf-engine=xelatex -o "$base".pdf
+			pandoc "$file" --pdf-engine=context -o "$base".pdf
 		fi ;;
 	*config.h) make && sudo make install ;;
         *\.c) cc "$file" -o "$base" && "$base" ;;
