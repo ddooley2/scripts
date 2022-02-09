@@ -1,0 +1,2 @@
+#!/bin/sh
+echo 'source /Users/ddooley/venvs/package_env/bin/activate'
